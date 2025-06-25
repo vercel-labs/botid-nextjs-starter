@@ -19,7 +19,7 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) with your browser notice:
 
 - `layout.tsx` containing `<BotIdClient>` protecting `/api/generate
-- `api/generate/routs.ts` calling `checkBotId` and using the result to block the user
+- `api/generate/route.ts` calling `checkBotId` and using the result to block the user
 - `generate-button.tsx` fetching the protected route and showing the result on the page
 
 ## Using BotID
