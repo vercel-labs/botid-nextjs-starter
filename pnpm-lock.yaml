@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       botid:
-        specifier: ^0.0.9
-        version: 0.0.9(next@15.3.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)
+        specifier: ^1.1.0
+        version: 1.1.0(next@15.3.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0)
       next:
         specifier: 15.3.4
         version: 15.3.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -356,8 +356,8 @@ packages:
       '@aws-sdk/credential-provider-web-identity':
         optional: true
 
-  botid@0.0.9:
-    resolution: {integrity: sha512-5pVKjF7mLIg8cZ/LcaNL8oKfv4VR4wML56cAXrkbCmbPDTy5CdNRxYXnTyvnMAtyjObljztLfCYFHhGLExcUwQ==}
+  botid@1.1.0:
+    resolution: {integrity: sha512-U3EJmiWfrUo4w2PiU57kK4mkxiE60KTGHVe2BBQnRGUbXSLIsNSWZ12f4PA9qn2tjDUGzrDElJKWtrdrzdr1bw==}
     peerDependencies:
       next: '*'
       react: ^18.0.0 || ^19.0.0
@@ -836,7 +836,7 @@ snapshots:
 
   '@vercel/functions@2.2.2': {}
 
-  botid@0.0.9(next@15.3.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0):
+  botid@1.1.0(next@15.3.4(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(react@19.1.0):
     dependencies:
       '@vercel/functions': 2.2.2
       react: 19.1.0
