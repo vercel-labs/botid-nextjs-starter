@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "botid": "^1.1.0",
+    "botid": "^1.4.2",
     "next": "15.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
