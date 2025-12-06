@@ -6,11 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint ."
   },
   "dependencies": {
     "botid": "^1.4.2",
-    "next": "15.3.4",
+    "next": "^15.3.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
@@ -19,6 +19,8 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.0.7",
     "tailwindcss": "^4",
     "typescript": "^5"
   },
